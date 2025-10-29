@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anveshna's Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1>Anveshna</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="welcome">
+        <p style="font-size: 30px;;"><b>Welcome to my portfolio</b></p>
+        <p>Hello! I am Anveshna and I am a web development student. This is a personal portfolio website. </p>
+    </section>
+    
+    <section id="about">
+        <h2>About me</h2> 
+        
+        <img src="photo.jpeg" alt="Anveshna's Profile Picture"/>
+        
+        <p>I am passionate about learning how to build websites and interfaces.</p>
+        
+        <ul>
+            <li> <b>Portfolio website:</b> A personal one-page website to showcase your bio, skills, and contact details.</li>
+            <li><b>Medium clone:</b> A simple blog layout that looks like Medium, built with HTML and CSS.</li>
+            <li><b>Birthday card:</b> A creative greeting card webpage designed with HTML and CSS styling.</li>
+            <li><b>User form:</b> A form webpage with fields like name, address, email, and message for practice form handling.</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2> 
+        
+        <table border="2">
+            <tr>
+                 <th>Skills</th>
+                 <th>Level</th>
+            </tr>
+            <tr><td>HTML</td><td>Expert</td></tr> 
+            <tr><td>CSS</td><td>Beginner</td></tr>
+            <tr><td>JavaScript</td><td>Learning</td></tr>
+        </table>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="project1-image.png" alt="Project 1: Portfolio website placeholder">
+                <h3>Project 1</h3>
+                <p>A simple, clean portfolio project built using HTML and CSS.</p>
+            </div>
+            
+            <div class="project-card">
+                <img src="project2-image.png" alt="Project 2: Medium clone placeholder">
+                <h3>Project 2</h3>
+                <p>A simple blog layout that looks like Medium, built with HTML and CSS.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact me</h2>
+        
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required/>
+            <br><br>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" placeholder="Enter your email address" required/>
+            <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type your message" required></textarea> 
+            <br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <a href="#" class="back-to-top-link">Back</a>
+
+</body>
+</html>
